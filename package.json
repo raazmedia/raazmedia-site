@@ -1,0 +1,37 @@
+{
+  "name": "raazmedia-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "intex.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raazmedia/raazmedia-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raazmedia/raazmedia-site/issues"
+  },
+  "homepage": "https://github.com/raazmedia/raazmedia-site#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize-scss": "^6.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "browserify": "^14.3.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-mixins": "^6.0.0",
+    "postcss-nested": "^2.0.2",
+    "postcss-simple-vars": "^4.0.0"
+  }
+}

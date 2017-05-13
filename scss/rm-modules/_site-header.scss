@@ -1,0 +1,10 @@
+@mixin -rm-site-header{
+	.site-header{
+		position: relative;
+		background-color: rgba(10, 10, 10, 0.99);
+		
+		.logo{
+			color: $white;
+		}
+	}
+}

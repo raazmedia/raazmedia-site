@@ -1,0 +1,21 @@
+.top-nav{
+	//padding-top: 1%;
+	& .top-menu{
+		width: 100%;
+		.menu{
+			margin-top:3px;
+			list-style: none;
+			float: right;
+			li{
+				display: inline-block;
+				padding-right: 20px;
+				a:link,
+				a:visited{
+					color: $white;
+					text-decoration: none;
+					
+				}
+			}
+		}
+	}
+}
