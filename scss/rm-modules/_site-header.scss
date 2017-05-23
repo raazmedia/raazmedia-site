@@ -1,6 +1,7 @@
 @mixin -rm-site-header{
 	.site-header{
 		position: relative;
+      width: 100%;
 		background-color: rgba(10, 10, 10, 0.99);
 		
 		.logo{

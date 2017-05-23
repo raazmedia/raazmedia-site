@@ -4,13 +4,7 @@ var   autoprefixer  = require('autoprefixer');
 var   cssvars       = require('postcss-simple-vars');
 var   mixins        = require('postcss-mixins');
 var   sass          = require('gulp-sass');
-var   nested        = require('postcss-nested');
 
-var COMPATIBILITY = [
-  'last 2 versions',
-  'ie >= 10',
-  'and_chr >= 2.3'
-];
 
 gulp.task('sass', function () {
   return gulp.src('./scss/**/*.scss')

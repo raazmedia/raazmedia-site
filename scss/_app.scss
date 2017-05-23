@@ -1,5 +1,8 @@
 @import "rm-vars/vars";
 
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700|Play');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
 @import "rm-base/global-styles";
 @import "rm-base/normalize";
 @import "rm-base/rm-grid";
@@ -8,6 +11,7 @@
 
 @import "rm-modules/site-header";
 @import "rm-modules/top-nav";
+@import "rm-modules/canvas";
 
 
 

@@ -6,8 +6,25 @@
 html,
 body{
   background-color: $white;
-  font-family: 'Lato', 'Arila', sans-serif;
+  font-family: $body-font-family;
   text-rendering: optimizeLegibility;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: $font-weight-light;
+  
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.center{
+	text-align: center;
+	margin: 0 auto;
+}
+.justify{
+	text-align: justify;
+}
+.hidden-sm, .hidden-md{
+	display: none;
 }

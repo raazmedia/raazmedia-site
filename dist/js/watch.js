@@ -25,10 +25,24 @@ gulp.task('watch', function () {
   watch('./scss/**/*.scss', function () {
     gulp.start('build');
   });
+  
+  //scripts
+  watch('./assets/src/scripts/**/*.js', function(){
+	  gulp.start('bundlejs')
+  });
 
 });
+
+// some dependences tasks
+
 gulp.task('build', ['sass'], function () {
   return gulp.src('./css/core.css')
     .pipe(browserSync.stream());
 });
+
+gulp.task('bundlejs', ['scripts'], function(){
+	browserSync.reload();
+});
+
+
 

@@ -1,1 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic');
+h1{
+	font-size: 2.5rem;
+}
+h2{
+	font-size: 2rem;
+}
+h3{
+	font-size: 1.375rem;
+}
+h4{
+	font-size: 1.125rem;
+}
+h5{
+	font-size: 1rem;
+}
+p{
+	font-size: $body-font-size;
+	font-weight: $font-weight-thin;
+	line-height: 1.8;
+}
